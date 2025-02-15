@@ -1,36 +1,8 @@
-# `alifeee.github.io`
+a decaying version of my homepage
 
-My personal website!
+main repository: <https://github.com/alifeee/alifeee.github.io>
 
-<https://alifeee.co.uk/>
+decays using a [script](./decay_mycelium.sh), a GitHub deploy key, and a cron job:
 
-![Screenshot of buttons from main page](images/website-buttons.png)
-
-## Utilities
-
-### Generate sitemap
-
-```bash
-npm run sitemap
+```crontab
 ```
-
-### Run jest tests - simple
-
-```bash
-npm test
-```
-
-### Run jest tests - with debug/watch
-
-(in VSCode): `F1` ⇾ `Debug: JavaScript Debug Terminal`
-
-```bash
-npm test -- --watch
-```
-
-## DNS
-
-DNS Configuration
-
-![Screenshot of DNS configuration](https://github.com/alifeee/alifeee.github.io/assets/13833017/fedf21fa-be25-4a77-aefd-bd69346f640c)
-
